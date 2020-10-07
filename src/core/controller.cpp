@@ -225,7 +225,7 @@ void Controller::enableTrayIcon()
     m_trayIcon->setToolTip(QStringLiteral("Flameshot"));
     m_trayIcon->setContextMenu(trayIconMenu);
     QIcon trayicon =
-      QIcon::fromTheme("flameshot-tray", QIcon(":img/app/flameshot.png"));
+      QIcon::fromTheme("flameshot-tray", QIcon(":img/app/org.flameshot.flameshot.png"));
     m_trayIcon->setIcon(trayicon);
 
     auto trayIconActivated = [this](QSystemTrayIcon::ActivationReason r) {

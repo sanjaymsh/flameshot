@@ -346,7 +346,7 @@ jobs:
             ${APPIMAGE_DST_PATH}/usr/plugins/platforminputcontexts/
 
           cp \
-            $GITHUB_WORKSPACE/data/img/app/flameshot.png \
+            $GITHUB_WORKSPACE/data/img/app/org.flameshot.flameshot.png \
             ${APPIMAGE_DST_PATH}/
 
           VERSION=${VERSION} $GITHUB_WORKSPACE/appimagetool ${APPIMAGE_DST_PATH}
