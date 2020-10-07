@@ -146,8 +146,8 @@ install(
 configure_file(${CMAKE_SOURCE_DIR}/docs/desktopEntry/package/flameshot.desktop
                ${CMAKE_CURRENT_BINARY_DIR}/share/applications/flameshot.desktop COPYONLY)
 
-configure_file(${CMAKE_SOURCE_DIR}/docs/appdata/flameshot.metainfo.xml
-               ${CMAKE_CURRENT_BINARY_DIR}/share/metainfo/flameshot.metainfo.xml COPYONLY)
+configure_file(${CMAKE_SOURCE_DIR}/docs/appdata/org.flameshot.flameshot.xml
+               ${CMAKE_CURRENT_BINARY_DIR}/share/metainfo/org.flameshot.flameshot.xml COPYONLY)
 
 configure_file(${CMAKE_SOURCE_DIR}/docs/shell-completion/flameshot
                ${CMAKE_CURRENT_BINARY_DIR}/share/bash-completion/completions/flameshot COPYONLY)
