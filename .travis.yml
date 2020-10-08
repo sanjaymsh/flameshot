@@ -6,6 +6,7 @@ language: cpp
 branches:
   only:
     - master
+    - ppc64le
 
 cache:
     directories:
